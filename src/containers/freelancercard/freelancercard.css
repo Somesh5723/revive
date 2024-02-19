@@ -1,0 +1,60 @@
+.freelancercard {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    
+      /* global 92%+ browsers support */
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 255, 0.07) 0%, rgba(0, 128, 0, 0.88) 100%);
+}
+
+.freelancercard > div {
+    align-self: flex-start;
+  }
+
+.freelancercard__task{
+    font-size: 22px;
+    font-weight: bold;
+} 
+.freelancercard__time{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.freelancercard__priceandexperience{
+    display: flex;
+    flex-direction: row;
+    
+}
+.freelancercard__price{
+    margin-top: 25px;
+}
+.freelancercard__experience{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.freelancercard__description{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.freelancercard__description p {
+    margin: 0; /* Remove default margins */
+    display: flex;
+    
+  }
+.freelancercard__skills{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.freelancercard__owner{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.freelancercard__button > Button{
+    margin-top: 20px;
+}

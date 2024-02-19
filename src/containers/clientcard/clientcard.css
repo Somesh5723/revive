@@ -1,0 +1,60 @@
+.clientcard {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    
+      /* global 92%+ browsers support */
+      background: radial-gradient(ellipse at 50% 50%, rgba(121, 85, 72, 0.08) 0%, rgba(156, 39, 176, 1) 100%);
+}
+
+.clientcard > div {
+    align-self: flex-start;
+  }
+
+.clientcard__task{
+    font-size: 22px;
+    font-weight: bold;
+} 
+.clientcard__time{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.clientcard__priceandexperience{
+    display: flex;
+    flex-direction: row;
+    
+}
+.clientcard__price{
+    margin-top: 25px;
+}
+.clientcard__experience{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.clientcard__description{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clientcard__description p {
+    margin: 0; /* Remove default margins */
+    display: flex;
+    
+  }
+.clientcard__skills{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.clientcard__owner{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clientcard__button > Button{
+    margin-top: 20px;
+}
