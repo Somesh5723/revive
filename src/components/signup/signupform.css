@@ -14,6 +14,7 @@ html{
 body{
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  
 
 }
 
@@ -155,6 +156,7 @@ form button[type='button'] {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  width:40px
 }
 
 .login-center-buttons button:nth-child(1){
