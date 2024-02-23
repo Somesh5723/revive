@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./signupform.css";
 import { useFormik } from "formik";
 import * as Yup from "yup"; // Import Yup for form validation
-import Image from "../../assets/image.png";
+import Image from "../../assets/welcome.png";
 import Logo from "../../assets/logo.png";
 import GoogleSvg from "../../assets/icons8-google.svg";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
